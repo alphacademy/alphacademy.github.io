@@ -17,6 +17,23 @@
 	--btncol3: #6fb5e0;
 }
 
+#nav ul li a.apply{
+	background-color: var(--btncol1);
+	color: white;
+}
+
+#nav ul li a.apply:hover {
+	background-color: var(--btncol2);
+	color: white;
+}
+
+#nav ul li a.apply.active {
+	background-color: white;
+	color: var(--btncol1);
+	border: solid 2px;
+	border-color: var(--btncol1);
+	font-weight: bold;
+}
 
 /*
 	Stellar by HTML5 UP
