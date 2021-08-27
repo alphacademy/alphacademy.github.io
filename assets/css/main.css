@@ -3156,6 +3156,8 @@ input, select, textarea {
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
+					width: 8em;
+					height: 8em;
 				}
 
 		@media screen and (max-width: 1280px) {
