@@ -17,6 +17,28 @@
 	--btncol3: #6fb5e0;
 }
 
+div.header-info {
+	text-align: left;
+	color: white;
+	padding: 0 2em 2em 2em;
+}
+
+div.header-info p {
+	margin: 0 0 0 0;
+}
+
+div.header-info ul {
+	font-size: 1.25em;
+	margin: 0 0 0 0;
+	padding-left: 2em;
+}
+
+@media screen and (max-width: 736px) {
+	div.header-info ul {
+		font-size: 1em
+	}
+}
+
 #nav ul li a.apply{
 	background-color: var(--btncol1);
 	color: white;
