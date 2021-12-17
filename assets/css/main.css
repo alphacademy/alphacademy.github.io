@@ -17,6 +17,32 @@
 	--btncol3: #6fb5e0;
 }
 
+#job header {
+	margin: 0;
+}
+
+#job header p {
+	margin: 0;
+}
+
+table.content {
+	margin: auto;
+	width: 50%;
+	text-align: left;
+}
+
+table.content tr {
+	border-style: none;
+}
+
+table.content td {
+	background-color: white;
+}
+
+table.content ul {
+	margin: 0;
+}
+
 div.header-info {
 	text-align: left;
 	color: white;
