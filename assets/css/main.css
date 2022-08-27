@@ -20,6 +20,10 @@
 	--btncol6: #a4e0dd;
 }
 
+#content p {
+	text-align: justify;
+}
+
 .important {
 	color: red;
 }
