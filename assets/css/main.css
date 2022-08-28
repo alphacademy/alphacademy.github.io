@@ -302,7 +302,7 @@ input, select, textarea {
 			-webkit-column-gap: 2em;
 			-ms-column-gap: 2em;
 			column-gap: 2em;
-			text-align: justify;
+			text-align: center;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3070,14 +3070,14 @@ input, select, textarea {
 					border-bottom-left-radius: 8px;
 				}
 
-				.statistics li .icon:before {
+/*				.statistics li .icon:before {
 					font-size: 3.75rem;
 				}
 
 				.statistics li strong, .statistics li b {
 					font-size: 2.5em;
 				}
-
+*/
 		}
 
 /* Spotlight */
@@ -3117,7 +3117,14 @@ input, select, textarea {
 			border: solid 1px;
 		}
 
-			.spotlight .image img {
+		#third .image {
+			display: inline-block;
+			padding: 0.65em;
+			border-radius: 100%;
+			border: solid 1px;
+		}
+
+			.spotlight .image img, #third .image img {
 				display: block;
 				border-radius: 100%;
 				width: 16em;
@@ -3163,21 +3170,30 @@ input, select, textarea {
 					margin-bottom: 2em;
 				}
 
+				#third .image  {
+					-moz-flex: 0 1 auto;
+					-webkit-flex: 0 1 auto;
+					-ms-flex: 0 1 auto;
+					flex: 0 1 auto;
+					margin-left: 0;
+					margin-top: 2em;
+				}
+
 		}
 
 		@media screen and (max-width: 736px) {
 
-			.spotlight .image {
+			.spotlight .image, #third .image {
 				padding: 0.35em;
 			}
 
-				.spotlight .image img {
+				.spotlight .image img, #third .image img {
 					width: 12em;
 				}
 
 		}
 
-	.spotlight .image {
+	.spotlight .image, #third .image {
 		border-color: rgba(255, 255, 255, 0.35);
 	}
 
@@ -3690,7 +3706,7 @@ input, select, textarea {
 			border-color: #dddddd;
 		}
 
-		#main .spotlight .image {
+		#main .spotlight .image, #third .image {
 			border-color: #dddddd;
 		}
 
